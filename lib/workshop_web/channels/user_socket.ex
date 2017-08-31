@@ -3,6 +3,7 @@ defmodule WorkshopWeb.UserSocket do
 
   ## Channels
   # channel "room:*", WorkshopWeb.RoomChannel
+  channel "room:lobby", WorkshopWeb.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
